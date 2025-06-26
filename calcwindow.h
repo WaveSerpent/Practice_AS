@@ -19,5 +19,13 @@ public:
 
 private:
     Ui::CalcWindow *ui;
+
+private slots:
+    void digits_numbers();
+    void comma_button_click();
+    void operations();
+    void on_bt_AC_clicked();
+    void on_bt_equal_clicked();
+    void on_bt_backspace_clicked();
 };
 #endif // CALCWINDOW_H

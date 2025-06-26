@@ -44,13 +44,13 @@
      <height>366</height>
     </size>
    </property>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="calc_result">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>-6</y>
       <width>244</width>
-      <height>71</height>
+      <height>68</height>
      </rect>
     </property>
     <property name="font">
@@ -70,7 +70,7 @@ background-color : white;</string>
      <string>0</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="bt_AC">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -81,7 +81,7 @@ background-color : white;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(150,180, 240);
   border: 1px solid gray;
 }
 QPushButton:pressed {
@@ -93,7 +93,7 @@ QPushButton:pressed {
      <string>AC</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="bt_sqrt">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -104,42 +104,46 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(255, 151, 57);
+  color: white; 
   border: 1px solid gray;
 }
+
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                      stop: 0 #BEBEBE, stop: 1 #D7D7D7);
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
 }</string>
     </property>
     <property name="text">
-     <string>%</string>
+     <string>√</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="bt_plus_minus">
     <property name="geometry">
      <rect>
-      <x>61</x>
-      <y>61</y>
+      <x>0</x>
+      <y>305</y>
       <width>61</width>
       <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(255, 151, 57);
+  color: white; 
   border: 1px solid gray;
 }
+
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                      stop: 0 #BEBEBE, stop: 1 #D7D7D7);
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
 }</string>
     </property>
     <property name="text">
      <string>+/-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="bt_divide">
     <property name="geometry">
      <rect>
       <x>183</x>
@@ -164,7 +168,7 @@ QPushButton:pressed {
      <string>÷</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="bt_9">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -186,7 +190,7 @@ QPushButton:pressed {
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="bt_7">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -208,7 +212,7 @@ QPushButton:pressed {
      <string>7</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="bt_multiply">
     <property name="geometry">
      <rect>
       <x>183</x>
@@ -233,7 +237,7 @@ QPushButton:pressed {
      <string>x</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="bt_8">
     <property name="geometry">
      <rect>
       <x>61</x>
@@ -255,7 +259,7 @@ QPushButton:pressed {
      <string>8</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="bt_6">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -277,7 +281,7 @@ QPushButton:pressed {
      <string>6</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="bt_4">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -299,7 +303,7 @@ QPushButton:pressed {
      <string>4</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="bt_minus">
     <property name="geometry">
      <rect>
       <x>183</x>
@@ -324,7 +328,7 @@ QPushButton:pressed {
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="bt_5">
     <property name="geometry">
      <rect>
       <x>61</x>
@@ -346,7 +350,7 @@ QPushButton:pressed {
      <string>5</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="bt_3">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -368,7 +372,7 @@ QPushButton:pressed {
      <string>3</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="bt_1">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -390,7 +394,7 @@ QPushButton:pressed {
      <string>1</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="bt_plus">
     <property name="geometry">
      <rect>
       <x>183</x>
@@ -412,10 +416,10 @@ QPushButton:pressed {
 }</string>
     </property>
     <property name="text">
-     <string>=</string>
+     <string>+</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_16">
+   <widget class="QPushButton" name="bt_2">
     <property name="geometry">
      <rect>
       <x>61</x>
@@ -437,7 +441,7 @@ QPushButton:pressed {
      <string>2</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_17">
+   <widget class="QPushButton" name="bt_comma">
     <property name="geometry">
      <rect>
       <x>122</x>
@@ -459,12 +463,12 @@ QPushButton:pressed {
      <string>.</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
+   <widget class="QPushButton" name="bt_0">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>61</x>
       <y>305</y>
-      <width>122</width>
+      <width>61</width>
       <height>61</height>
      </rect>
     </property>
@@ -481,7 +485,7 @@ QPushButton:pressed {
      <string>0</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_19">
+   <widget class="QPushButton" name="bt_equal">
     <property name="geometry">
      <rect>
       <x>183</x>
@@ -492,18 +496,39 @@ QPushButton:pressed {
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-  background-color: rgb(255, 151, 57);
-  color: white; 
+  background-color: rgb(150,180, 240);
   border: 1px solid gray;
 }
-
 QPushButton:pressed {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                      stop: 0 #FF7832, stop: 1 #FF9739);
+                                      stop: 0 #BEBEBE, stop: 1 #D7D7D7);
 }</string>
     </property>
     <property name="text">
      <string>=</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_backspace">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>61</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: rgb(150,180, 240);
+  border: 1px solid gray;
+}
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #BEBEBE, stop: 1 #D7D7D7);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
