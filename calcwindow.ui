@@ -556,7 +556,7 @@ QPushButton:pressed {
      <string>=</string>
     </property>
     <property name="shortcut">
-     <string>Return, Enter</string>
+     <string>Return</string>
     </property>
    </widget>
    <widget class="QPushButton" name="bt_backspace">
@@ -596,6 +596,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
+      <pointsize>7</pointsize>
       <italic>true</italic>
      </font>
     </property>
@@ -605,24 +606,6 @@ QPushButton:pressed {
 }
 
 background-color : white;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="calc_symbol">
-    <property name="geometry">
-     <rect>
-      <x>4</x>
-      <y>20</y>
-      <width>20</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
     </property>
     <property name="text">
      <string/>

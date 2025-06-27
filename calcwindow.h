@@ -23,11 +23,12 @@ private:
 
 private slots:
     void digits_numbers();
-    void comma_button_click();
-    void math_operations();
+    void math_operations(QString calc_symbol);
     void on_bt_AC_clicked();
     void on_bt_equal_clicked();
     void on_bt_backspace_clicked();
     void on_bt_plus_minus_clicked();
+    void math_signal();
+    void on_bt_comma_clicked();
 };
 #endif // CALCWINDOW_H
